@@ -1,0 +1,4 @@
+langchain[openai]
+IPython
+# pip install -U langgraph langsmith
+fastapi[standard]
