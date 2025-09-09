@@ -17,7 +17,9 @@ def responder_pregunta(pregunta: str) -> str:
     model = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
 
     respuesta = model.invoke(pregunta)
+    print("\n -- --Respuesta:")
     print(respuesta.content)
+    return respuesta.content
     
 
 
